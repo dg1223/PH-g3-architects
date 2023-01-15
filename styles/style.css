@@ -195,12 +195,14 @@ nav li{
     text-align: center;
     line-height: 1.35;
     padding-top: 30px;
-    /* padding: 45px; */
     width: 200px;
     height: 200px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    /* transform: rotate(90deg) */
+    transition: transform .2s;
+}
+.card:hover{
+    transform: scale(1.5);
 }
 .number{
     font-weight: 600;
@@ -211,4 +213,24 @@ nav li{
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+}
+
+/* Sponsors styles */
+.sponsors{
+    text-align: center;
+    justify-content: center;
+    margin: 200px 7%;
+}
+.sponsors .title-common{
+    margin-bottom: 15px;
+}
+.sponsor-logos{
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    margin: 7% auto;
+}
+.sponsor-logo{
+    filter: grayscale(100%);
+    /* mix-blend-mode: luminosity; */
 }

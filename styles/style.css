@@ -228,15 +228,12 @@ nav li{
 }
 .sponsor-logo{
     filter: grayscale(100%);
-    /* mix-blend-mode: luminosity; */
 }
 
 /* Copyright section styles */
 .copyright{
     height: 75px;
     text-align: center;
-    /* vertical-align: middle; */
-    /* justify-content: center; */
     margin: 0 15% 125px;
     background: #FFF4E7;
     border-radius: 8px;
@@ -245,7 +242,6 @@ h5{
     padding: 25px;
     font-weight: 400;
     font-size: 20px;
-    /* text-align: center; */
     color: #424242;
 }
 
@@ -361,5 +357,24 @@ form textarea{
     .btn-experience span{
         font-weight: 500;
         font-size: 15px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        justify-content: center;
+        margin: 7% auto;
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+    .sponsor-logos{
+        flex-direction: column;
+    }
+    .sponsor-logo{
+        margin-bottom: 81px;
+    }
+    .copyright{
+        height: 150px;
     }
 }

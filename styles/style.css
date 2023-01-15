@@ -252,3 +252,32 @@ h5{
     /* text-align: center; */
     color: #424242;
 }
+
+/* Bonus section: Contact styles */
+.contact{
+    padding: 7% 7%;
+    text-align: center;
+    background-color: lightcyan;
+}
+.contact .title-common{
+    margin-bottom: 50px;
+}
+.form{
+    padding: 25px auto;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+form textarea{
+    margin-bottom: 10px;
+}

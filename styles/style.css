@@ -219,7 +219,7 @@ nav li{
 .sponsors{
     text-align: center;
     justify-content: center;
-    margin: 200px 7%;
+    margin: 200px 7% 125px;
 }
 .sponsors .title-common{
     margin-bottom: 15px;
@@ -233,4 +233,22 @@ nav li{
 .sponsor-logo{
     filter: grayscale(100%);
     /* mix-blend-mode: luminosity; */
+}
+
+/* Copyright section styles */
+.copyright{
+    height: 75px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* justify-content: center; */
+    margin: 0 15% 125px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+h5{
+    padding: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    /* text-align: center; */
+    color: #424242;
 }

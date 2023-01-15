@@ -175,3 +175,40 @@ nav li{
     font-weight: 500;
     font-size: 25px;
 }
+
+/* Facts section styles */
+.facts{
+    justify-content: center;
+    margin: 200px 7%;
+}
+.facts .section-details{
+    margin-top: 10px;
+}
+.cards{
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    margin: 7% auto;
+}
+.card{
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 30px;
+    /* padding: 45px; */
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg) */
+}
+.number{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.number-text{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}

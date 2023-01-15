@@ -95,7 +95,8 @@ nav li{
     grid-gap: 2.5%;
 }
 .tiles img{
-    border-radius: 8px
+    border-radius: 8px;
+    width: 100%;
 }
 .tile-title{
     font-weight: 500;
@@ -122,11 +123,6 @@ nav li{
 .features .title-common{
     border-left: 5px solid #FF900E;
     padding-left: 21px;
-    /* width: 5px;
-    height: 106px;
-    left: 240px;
-    top: 2284px;
-    background: #FF900E; */
 }
 .feature-info{
     display: flex;
@@ -280,4 +276,90 @@ form input{
 }
 form textarea{
     margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 576px) {
+    nav,
+    nav ul,
+    .banner, 
+    .quicklist, 
+    .features, 
+    .facts, 
+    .sponsors{
+        /* width: 100%; */
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    nav ul{
+        flex-direction: row;
+    }
+    .banner-title{
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 45px;
+        color: #131313;
+        margin-bottom: 34px;    
+    }
+    .tile-title{
+        font-size: 40px;
+    }
+    .features{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        gap: 1%;
+    }
+    .features .title-common{
+        border-left: 5px solid #FF900E;
+        padding-left: 21px;
+    }
+    .feature-info{
+        display: flex;
+        flex-direction: column;
+        width: auto%;
+    }
+    .feature-details{
+        padding: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    .feature-details h3{
+        font-weight: 600;
+        font-size: 20px;
+        color: #131313;
+    }
+    .feature-image{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .feature-image img{
+        width: 100%;
+    }
+    .btn-experience{
+        /* position button on image */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translateX(65%) translateY(25%);
+    
+        /* other button properties */
+        width: 142px;
+        height: 100px;
+        background: #FF900E;
+        border-radius: 8px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0.75;
+    }
+    .btn-experience span{
+        font-weight: 500;
+        font-size: 15px;
+    }
 }

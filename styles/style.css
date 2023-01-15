@@ -23,7 +23,12 @@
     line-height: 26px;
     color: #727272;
     margin-bottom: 25px;
-    }
+}
+.title-common{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
 
 /* Navbar styles */
 header{
@@ -32,7 +37,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 7%;
 }
 .nav-title{
     font-weight: 700;
@@ -57,7 +62,7 @@ nav li{
 /* Banner styles */
 .banner{
     text-align: center;
-    padding: 25px 100px;
+    padding: 25px 7%;
 }
 .banner-info{
     padding: 0 20%;
@@ -105,4 +110,68 @@ nav li{
 }
 #tile-title2{
     color: #FF900E;
+}
+
+/* Features you will love section styles */
+.features{
+    display: flex;
+    justify-content: center;
+    margin: 25px 7%;
+    gap: 10%;
+}
+.features .title-common{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    /* width: 5px;
+    height: 106px;
+    left: 240px;
+    top: 2284px;
+    background: #FF900E; */
+}
+.feature-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.feature-details{
+    padding: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-details h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.feature-image{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature-image img{
+    width: 100%;
+}
+.btn-experience{
+    /* position button on image */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-30%) translateY(25%);
+
+    /* other button properties */
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 0.75;
+}
+.btn-experience span{
+    font-weight: 500;
+    font-size: 25px;
 }
